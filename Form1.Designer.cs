@@ -181,7 +181,7 @@
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(647, 184);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "TASK LOG";
+            this.tabPage4.Text = "TASK BASED UI LOG";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // dataGridView4
@@ -312,6 +312,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::SiebelLogScan.Properties.Resources.SiebelLogScan;
             this.pictureBox1.Location = new System.Drawing.Point(538, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -336,6 +337,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(670, 300);
             this.Name = "SiebelLogScan";
             this.Text = "SiebelLogScan";
             this.Load += new System.EventHandler(this.SiebelLogScan_Load);
