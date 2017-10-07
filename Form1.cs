@@ -304,7 +304,7 @@ namespace WindowsFormsApplication2
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Created by Vijay Nadella to parse Siebel Logs\nVersion: 1.2\n For Bug Reporting Please Email: vijay.chowdary99@birlasoft.com",
+            MessageBox.Show("Created by Vijay Nadella to parse Siebel Logs\nVersion: 1.2\n For any features Please Email: vijay.chowdary99@gmail.com",
    "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
